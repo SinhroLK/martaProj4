@@ -140,8 +140,8 @@ var ParticlePool = (function() { // Particle pool class
 
     function pointOnHeart(t) { // Get point on heart
         return new Point(
-            160 * Math.pow(Math.sin(t), 3),
-            130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
+            125 * Math.pow(Math.sin(t), 3),
+            100 * Math.cos(t) - 45 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
         );
     }
 
